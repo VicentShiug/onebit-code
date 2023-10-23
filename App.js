@@ -30,9 +30,10 @@ export default function App() {
           }}
         />
         <Stack.Screen 
-          name='Indentificações da Obra'
+          name='Task'
           component={Task}
           options={{
+            title: 'Indentificações da Obra',
             headerTintColor: "#f92e6a",
             animationEnabled: true,
             headerLeft: false
