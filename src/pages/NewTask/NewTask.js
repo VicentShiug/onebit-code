@@ -37,9 +37,17 @@ export default function NewTask({ navigation, route }) {
 
     if (!isNaN(numero1) && !isNaN(numero2)) {
       const resultadoSoma = numero1 + numero2;
-      setResultado(`Valor cobrado: ${resultadoSoma}`);
+      setResultado(
+        <div style={{ backgroundColor: 'blue', padding: '10px', textAlign: 'center' }}>
+          Valor cobrado: {resultadoSoma}
+        </div>
+      );
     } else {
-      setResultado('Por favor, insira números válidos.');
+      setResultado(
+        <div style={{ backgroundColor: 'blue', padding: '10px', textAlign: 'center' }}>
+          Por favor, insira números válidos.
+        </div>
+      );
     }
   }
 
@@ -94,7 +102,7 @@ export default function NewTask({ navigation, route }) {
       </TouchableOpacity>
 
       {/* Adiciona um botão para calcular a soma */}
-      <Button title="Calcular Soma" onPress={somarNumeros} />
+      <Button style={styles.Calculo} title="Calcular Soma" onPress={somarNumeros} />
 
       {/* Exibe o resultado da soma */}
       <Text>{resultado}</Text>

@@ -81,7 +81,7 @@ export default function Task ({ navigation, route }) {
                 <FontAwesome
                   name='trash'
                   size={23}
-                  color={'#f92e6a'}
+                  color={'#191970'}
                 >
 
                 </FontAwesome>
@@ -105,7 +105,7 @@ export default function Task ({ navigation, route }) {
         onPress={() => logOut()}
       >
         <Text style={styles.iconButtonLogOut}>
-          <MaterialCommunityIcons name='location-exit' size={32} color={'#f9266a'} />
+          <MaterialCommunityIcons name='location-exit' size={32} color={'#191970'} />
         </Text>
       </TouchableOpacity>
 

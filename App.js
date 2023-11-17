@@ -33,8 +33,8 @@ export default function App() {
           name='Task'
           component={Task}
           options={{
-            title: 'Indentificações da Obra',
-            headerTintColor: "#f92e6a",
+            title: 'Indentificações das Obras',
+            headerTintColor: "#191970",
             animationEnabled: true,
             headerLeft: false
           }}
@@ -43,7 +43,7 @@ export default function App() {
           name='New Task'
           component={NewTask}
           options={{
-            headerTintColor: "#f92e6a",
+            headerTintColor: "#191970",
             animationEnabled: true
           }}
         />
@@ -51,7 +51,7 @@ export default function App() {
           name='Details'
           component={Details}
           options={{
-            headerTintColor: "#f92e6a",
+            headerTintColor: "#191970",
             animationEnabled: true
           }}
         />
