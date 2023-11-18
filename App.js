@@ -33,7 +33,7 @@ export default function App() {
           name='Task'
           component={Task}
           options={{
-            title: 'Indentificações das Obras',
+            title: 'Identificações das Obras',
             headerTintColor: "#191970",
             animationEnabled: true,
             headerLeft: false
@@ -43,6 +43,7 @@ export default function App() {
           name='New Task'
           component={NewTask}
           options={{
+            title: 'Novo Orçamento de Obra',
             headerTintColor: "#191970",
             animationEnabled: true
           }}
@@ -51,6 +52,7 @@ export default function App() {
           name='Details'
           component={Details}
           options={{
+            title: 'Detalhes do orçamento',
             headerTintColor: "#191970",
             animationEnabled: true
           }}
