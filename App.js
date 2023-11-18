@@ -25,6 +25,7 @@ export default function App() {
           name='NewUser'
           component={NewUser}
           options={{
+            title: 'Cadastro',
             headerShown: false,
             animationEnabled: true
           }}
