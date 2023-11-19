@@ -2,11 +2,20 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+    height: '100%',
     backgroundColor: '#fff',
   },
   label: {
     width: '90%',
+    marginTop: 20,
+    marginLeft: 20,
+    fontSize: 16,
+    color: '#191970',
+  },
+  label2: {
     marginTop: 20,
     marginLeft: 20,
     fontSize: 16,
@@ -22,11 +31,10 @@ const styles = StyleSheet.create({
     marginLeft: 'auto',
     marginRight: 'auto',
     outlineStyle: 'none',
-    
   },
   buttonNewTask: {
     width: 60,
-    height:60,
+    height: 60,
     position: 'absolute',
     bottom: 30,
     left: 20,
@@ -43,7 +51,19 @@ const styles = StyleSheet.create({
   statusTask: {
     marginTop: 20,
     marginLeft: 20
-  }
+  },
+  flexItem: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  flexItem2: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 20,
+    justifyContent: 'center',
+  },
 })
 
 export default styles

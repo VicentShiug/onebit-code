@@ -57,11 +57,12 @@ export default function Task ({ navigation, route }) {
           return (
             <View style={styles.Tasks}>
               <Text
-                style={item.status ? styles.DescriptionTaskOk : styles.DescriptionTask }
+                style={item.status ? styles.DescriptionTaskOk : styles.DescriptionTask}
                 onPress={() => {
                   navigation.navigate('Details', {
                     id: item.id,
                     description: item.description,
+                    address: item.address,
                     status: item.status,
                     num1: item.num1,
                     num2: item.num2,

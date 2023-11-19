@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
   DescriptionTaskOk: {
     width: '75%',
     alignContent: 'flex-start',
-    backgroundColor: '#9CFC97',
+    backgroundColor: '#526f9445',
     padding: 12,
     paddingHorizontal: 20,
     borderRadius: 50,
